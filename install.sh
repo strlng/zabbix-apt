@@ -26,5 +26,5 @@ $sh_c "cp -r zabbix-apt-master/apt.conf.d/02periodic /etc/apt/apt.conf.d/"
 $sh_c "cp zabbix-apt-master/zabbix_agentd.d/apt.conf /etc/zabbix/zabbix_agentd.d/"
 $sh_c "systemctl restart zabbix-agent.service"
 
-$sh_c "rm zappix-apt.zip"
+$sh_c "rm zabbix-apt.zip"
 $sh_c "rm -r zabbix-apt-master"
